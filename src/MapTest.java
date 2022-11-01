@@ -37,6 +37,7 @@ public class MapTest {
                 sum += integerSum;
 
             }
+
             mapTo.put(entry.getKey(), sum);
 
         }

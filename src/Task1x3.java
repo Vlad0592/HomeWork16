@@ -15,6 +15,7 @@ public class Task1x3 {
         if (map.containsKey(str) && map.get(str).equals(count)) {
             throw new RuntimeException("Нет возможности добавить");
         }
+
         map.put(str, count);
     }
 }
